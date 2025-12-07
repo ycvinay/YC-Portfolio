@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Developer Portfolio - YC Vinay">
+    <title>Y C | Creative Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-extra.css">
+    <link rel="stylesheet" href="enhancements.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="nav-logo"><span class="logo-text">Y C</span><span class="logo-dot"></span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle"><span class="theme-icon sun">☀️</span><span
+                class="theme-icon moon">🌙</span></button>
+        <div class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-sphere sphere-1"></div>
+            <div class="gradient-sphere sphere-2"></div>
+            <div class="gradient-sphere sphere-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge"><span class="badge-dot"></span><span>Available for Work</span></div>
+            <h1 class="hero-title">
+                <span class="title-line">Hi, I'm</span>
+                <span class="title-name gradient-text">Y C Vinay</span>
+                <span class="title-line">Creative Developer</span>
+            </h1>
+            <p class="hero-description">I craft exceptional digital experiences through innovative code and creative
+                design.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary"><span>View My Work</span><svg class="btn-arrow"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg></a>
+                <a href="resume.pdf" download class="btn btn-secondary">
+                    <span>Download Resume</span>
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item"><span class="stat-number" data-count="15">0</span><span
+                        class="stat-label">Projects</span></div>
+                <div class="stat-item"><span class="stat-number" data-count="1">0</span><span class="stat-label">Years
+                        Exp</span></div>
+                <div class="stat-item"><span class="stat-number" data-count="100">0</span><span class="stat-label">%
+                        Passion</span></div>
+            </div>
+        </div>
+        <div class="scroll-indicator"><span></span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">Passionate about crafting <span class="gradient-text">digital excellence</span>
+            </h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-card about-main">
+                <div class="card-glow"></div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="profile.png" alt="YC Vinat - Full Stack Developer" class="profile-image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate developer who loves turning ideas into reality through code. With a keen eye for
+                        design and a love for clean solutions, I create digital experiences that make an impact.</p>
+                </div>
+            </div>
+            <div class="about-card about-info">
+                <div class="card-glow"></div>
+                <h3>Quick Info</h3>
+                <ul class="info-list">
+                    <li><span class="info-icon">📍</span><span>Based in India</span></li>
+                    <li><span class="info-icon">💼</span><span>Full Stack Developer</span></li>
+                    <li><span class="info-icon">🎓</span><span>Computer Science</span></li>
+                    <li><span class="info-icon">🚀</span><span>Always Learning</span></li>
+                    <li>
+                        <span class="info-icon">📄</span>
+                        <a href="resume.pdf" download
+                            style="color: var(--accent-1); text-decoration: underline;">Download Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="about-card about-interests">
+                <div class="card-glow"></div>
+                <h3>Interests</h3>
+                <div class="interests-tags">
+                    <span class="tag">Web Dev</span><span class="tag">Mobile Apps</span><span class="tag">UI/UX</span>
+                    <span class="tag">ML/AI</span><span class="tag">Open Source</span><span class="tag">Cloud</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <span class="section-tag">My Skills</span>
+            <h2 class="section-title">Technologies I <span class="gradient-text">work with</span></h2>
+        </div>
+        <div class="skills-container">
+            <div class="skills-orbit">
+                <div class="orbit-center"><span>Tech Stack</span></div>
+                <div class="skill-planet" style="--orbit: 1; --delay: 0s;">
+                    <div class="planet-icon"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="JS"></div>
+                </div>
+                <div class="skill-planet" style="--orbit: 1; --delay: -4s;">
+                    <div class="planet-icon"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                            alt="React"></div>
+                </div>
+                <div class="skill-planet" style="--orbit: 1; --delay: -8s;">
+                    <div class="planet-icon"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                            alt="Node"></div>
+                </div>
+                <div class="skill-planet" style="--orbit: 2; --delay: -2s;">
+                    <div class="planet-icon"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                            alt="Python"></div>
+                </div>
+                <div class="skill-planet" style="--orbit: 2; --delay: -6s;">
+                    <div class="planet-icon"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    </div>
+                </div>
+                <div class="skill-planet" style="--orbit: 2; --delay: -10s;">
+                    <div class="planet-icon"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+                            alt="Kotlin"></div>
+                </div>
+            </div>
+            <div class="skills-list">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>React</span><span>95%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>JavaScript</span><span>90%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Spring Boot / Microservices</span><span>90%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Node.js / Express</span><span>88%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 88%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python / Flask</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Mobile & DB</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Android / Kotlin</span><span>85%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>MySQL / MongoDB</span><span>88%</span></div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 88%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <span class="section-tag">My Work</span>
+            <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        </div>
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-bg">
+            <div class="gradient-sphere sphere-4"></div>
+            <div class="gradient-sphere sphere-5"></div>
+        </div>
+        <div class="section-header">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title">Let's work <span class="gradient-text">together</span></h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p class="contact-intro">I'm always excited to connect with fellow developers and discuss new
+                    opportunities!</p>
+                <div class="contact-methods">
+                    <a href="mailto:ycvinay3432@gmail.com" class="contact-method">
+                        <div class="method-icon">📧</div>
+                        <div class="method-content"><span class="method-label">Email</span><span
+                                class="method-value">ycvinay3432@gmail.com</span></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yc-vinay/" target="_blank" class="contact-method">
+                        <div class="method-icon">💼</div>
+                        <div class="method-content"><span class="method-label">LinkedIn</span><span
+                                class="method-value">Connect with me</span></div>
+                    </a>
+                    <a href="https://github.com/ycvinay" target="_blank" class="contact-method">
+                        <div class="method-icon">🐙</div>
+                        <div class="method-content"><span class="method-label">GitHub</span><span
+                                class="method-value">Check my repos</span></div>
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group"><input type="text" id="name" required placeholder=" "><label for="name">Your
+                        Name</label></div>
+                <div class="form-group"><input type="email" id="email" required placeholder=" "><label for="email">Your
+                        Email</label></div>
+                <div class="form-group"><input type="text" id="subject" required placeholder=" "><label
+                        for="subject">Subject</label></div>
+                <div class="form-group"><textarea id="message" rows="4" required placeholder=" "></textarea><label
+                        for="message">Message</label></div>
+                <button type="submit" class="btn btn-primary btn-submit"><span>Send Message</span><svg class="btn-arrow"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4z" />
+                    </svg></button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo"><span class="logo-text">Y C</span><span class="logo-dot"></span></div>
+            <p class="footer-text">Crafted with passion and dedication</p>
+            <p class="footer-copyright">© 2024 Y C Vinay. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="enhancements.js"></script>
+</body>
+
+</html>
